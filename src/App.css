@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  color: aliceblue;
 }
 .container{
   background: rgb(153, 105, 105);
@@ -10,10 +11,25 @@ body{
   justify-content: center;
 }
 button{
+  margin-top: 10px;
   padding: 10px;
   border-radius: 10px;
+  border: 1px black solid;
   
 }
 input{
   margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border:none;
+  outline: none;
+}
+.boxQr{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: black;
 }

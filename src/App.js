@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState } from "react";
+import Title from "./componentes/Title"
 import Input from "./componentes/Input";
 import Button from "./componentes/Button";
 import QrCode from "./componentes/QrCode";
@@ -17,6 +18,7 @@ function App() {
   };
   return (
     <div className="container">
+      <Title></Title>
       <QrCode Image={image}></QrCode>
       <Input onChange={handleChangeText}></Input>
       <Button onClicks={handleChangeImage}></Button>
