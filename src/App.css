@@ -15,7 +15,12 @@ button{
   padding: 10px;
   border-radius: 10px;
   border: 1px black solid;
+  cursor: pointer;
+  transition: background 0.5s;
   
+}
+button:active{
+  background: grey;
 }
 input{
   margin-top: 30px;

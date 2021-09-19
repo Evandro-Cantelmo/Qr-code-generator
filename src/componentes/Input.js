@@ -5,7 +5,7 @@ import React from 'react';
 function Input(props) {
   return (
       <div>
-          <input placeholder="Link here" onChange={props.onChange}></input>
+          <input onKeyPress={props.onKeyPress} placeholder="Link here" onChange={props.onChange}></input>
       </div>
   );
 }
